@@ -72,14 +72,14 @@ input[type="text"]
 }
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
-div:nth-last-child(3) p
+div:nth-of-type(3) p
 {
     background-color: pink;
 }
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 
-div:nth-last-child(3) p:nth-child(2)
+div:nth-of-type(3) p:nth-child(3)
 {
     border: 5px solid white;
 }
