@@ -1,0 +1,43 @@
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    border: 15px solid #BDC3C7;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.dates
+{
+    color: #3498DB;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 3%;
+    letter-spacing: 5px;
+}
+
+h2
+{
+    font-size: 30px;
+    color: #2C3E50;
+    margin: 3%;
+    letter-spacing: -.5px;
+}
+
+div
+{
+    margin: 3%;
+}
+
+div p:nth-last-of-type(3)
+{
+    border-left: 5px solid #BDC3C7;
+    padding-left: 1%;
+}
+
+#border-paragraph
+{
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 3%;
+}
