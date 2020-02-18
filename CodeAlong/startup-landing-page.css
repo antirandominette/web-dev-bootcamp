@@ -16,6 +16,7 @@
 {
     font-size: 84px;
 
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +28,7 @@
 {
     font-size: 2em;
 
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
