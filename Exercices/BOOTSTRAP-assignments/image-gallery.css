@@ -1,0 +1,39 @@
+/* Dark blue: #2C3E50
+LIGHT GRAY: #ECF0F1 */
+body
+{
+    margin: 0;
+    padding-top: 70px;
+    color: #2C3E50;
+}
+
+.navbar-default
+{
+    background-color: #2C3E50;
+}
+
+.navbar-default .navbar-brand
+{
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus
+{
+    color: #fff;
+}
+
+
+.navbar-default .navbar-nav>li>a
+{
+    color: #fff !important;
+}
+
+.jumbotron
+{
+    background-color: #ECF0F1;
+}
+
+.thumbnail
+{
+    background: #ECF0F1;
+}
