@@ -1,0 +1,56 @@
+body
+{
+    font-family: 'Lato';
+}
+
+.jumbotron
+{
+    text-align: center;
+    background: url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80') no-repeat;
+    background-size: cover;
+}
+.jumbotron h1
+{
+    text-transform: uppercase;
+}
+
+.card-title
+{
+    font-weight: bold;
+}
+
+.btn-download
+{
+    background: #fff;
+    color: #5cb85c;
+    border: 1px solid #5cb85c;
+    border-radius: 3px;
+    font-weight: 400;
+
+    transition: .2s;
+}
+.btn-download:hover
+{
+    background: #5cb85c;
+    color: #fff;
+    text-decoration: none;
+
+    transition: .2s;
+}
+
+.btn-heart
+{
+    background: #fff;
+    color: #d9534f;
+    border: 1px solid #d9534f;
+    border-radius: 3px;
+
+    transition: .2s;
+}
+.btn-heart:hover
+{
+    background: #d9534f;
+    color: #fff;
+    
+    transition: .2s;
+}
