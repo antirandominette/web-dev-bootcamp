@@ -1,0 +1,43 @@
+body
+{
+    background: pink;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .nav-link:hover
+{
+    color: red !important;
+}
+.navbar-dark .navbar-toggler
+{
+    border: none;
+}
+
+/* GALLERY */
+
+.gallery
+{
+    color: #fff;
+}
+
+.red-slash
+{
+    color: red;
+}
+
+/* Sec2 */
+
+h2
+{
+    color: red;
+}
+
+.fas.fa-ice-cream
+{
+    font-size: 4rem;
+}
+
+.lead
+{
+    color: purple;
+    font-weight: 600;
+}
