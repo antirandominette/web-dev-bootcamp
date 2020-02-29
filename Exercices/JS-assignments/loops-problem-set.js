@@ -6,14 +6,24 @@ for(let i = -10; i <= 19; i++) {
 
 console.log("Problem 2\n\n");
 
-for(let j = 10; j <= 40; j += 2) {
-    console.log(j);
+// for(let j = 10; j <= 40; j += 2) {
+//     console.log(j);
+// }
+
+for(let j = 10; j <= 40; j++) {
+    if(j % 2 === 0)
+        console.log(j);
 }
 
 console.log("Problem 3\n\n");
 
-for(let k = 301; k <= 333; k += 2) {
-    console.log(k);
+// for(let k = 301; k <= 333; k += 2) {
+//     console.log(k);
+// }
+
+for(let k = 300; k <= 333; k++) {
+    if(k % 2 !== 0)
+        console.log(k);
 }
 
 console.log("Problem 4\n\n");
