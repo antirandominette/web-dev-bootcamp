@@ -40,6 +40,6 @@ btnReset.addEventListener("click", function() {
 });
 
 limitFixer.addEventListener("change", function() {
-    winningScore = Number(limitFixer.value);
+    winningScore = Number(this.value);
     limitScore.textContent = winningScore;
 });
