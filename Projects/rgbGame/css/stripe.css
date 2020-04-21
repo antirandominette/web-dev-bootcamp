@@ -1,0 +1,43 @@
+#stripe {
+    color: black !important;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+button {
+    border: none;
+
+    background: none;
+
+    color: steelblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+
+    height: 100%;
+
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+
+    outline: none !important;
+}
+button:hover {
+    background: steelblue;
+
+    color: white;
+}
+
+#message-wrong-right {
+    display: inline-block;
+
+    width: 20%;
+}
+
+.selected {
+    background: steelblue;
+
+    color: white;
+}

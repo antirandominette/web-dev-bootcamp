@@ -1,0 +1,22 @@
+#container {
+    max-width: 600px;
+
+    margin: 0 auto;
+    margin-top: 2vh;
+}
+
+.square {
+    background: purple;
+
+    padding-bottom: 30%;
+    margin: 1.66%;
+    
+    float: left;
+    width: 30%;
+
+    border-radius: 8px;
+
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+}

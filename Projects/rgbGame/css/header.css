@@ -1,0 +1,21 @@
+h1 {
+
+    background: steelblue;
+
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin: 0;
+    padding: 20px 0;
+}
+h1 span {
+    font-size: 200%;
+
+    line-height: 1.1;
+
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+}
